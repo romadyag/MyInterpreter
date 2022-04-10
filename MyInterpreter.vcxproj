@@ -146,6 +146,7 @@
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="CInterpreter.h" />
+    <ClInclude Include="common.h" />
     <ClInclude Include="Lexer.h" />
     <ClInclude Include="Token.h" />
   </ItemGroup>

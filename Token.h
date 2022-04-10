@@ -1,16 +1,21 @@
 #pragma once
-#include <string>
-
+#include "common.h"
+enum TYPE {
+	NUM,
+	WORD,
+	PLUS,
+	MINUS,
+	MULTY,
+	SPACE,
+	END
+};
 class Token
 {
 public:
-	enum TYPE{
-		NUM,
-		PLUS,
-		MINUS,
-		END
-	} type;
+	TYPE type;
 	std::string text;
 	int position;
+
+	TYPE check_token_type(char input_char);
 };
 

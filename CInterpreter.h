@@ -1,5 +1,6 @@
 #pragma once
 #include "Lexer.h"
+#include "common.h"
 
 class CInterpreter
 {

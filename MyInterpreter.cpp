@@ -1,14 +1,13 @@
 // MyInterpreter.cpp : This file contains the 'main' function. Program execution begins and ends there.
 //
 
-#include <iostream>
-#include <string>
+#include "common.h"
 #include "CInterpreter.h"
 using namespace std;
 int main()
 {
     string test1_str = "for (int i=1;i<=100;i++) { printf(' % d',i); }";
-    string test2_str = "5+6 * 4";
+    string test2_str = "Hi  5+6 * 14";
 
     CInterpreter myInterp;
     myInterp.interpret(test2_str);
